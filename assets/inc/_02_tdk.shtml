@@ -1,0 +1,225 @@
+
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width"/>
+<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="author" content="The Asahi Shimbun Company"/>
+<meta name="copyright" content="Copyright The Asahi Shimbun Company. All rights reserved. No reproduction or republication without written permission."/>
+<title></title>
+<meta name="description"/>
+<link rel="canonical" href="https://www.asahi.comclass URL {
+  constructor(input, base) {
+    // toUSVString is not needed.
+    input = `${input}`;
+    let base_context;
+    if (base !== undefined) {
+      base_context = new URL(base)[context];
+    }
+    this[context] = new URLContext();
+    parse(input, -1, base_context, undefined, onParseComplete.bind(this),
+          onParseError);
+  }
+
+  get [special]() {
+    return (this[context].flags &amp; URL_FLAGS_SPECIAL) !== 0;
+  }
+
+  get [cannotBeBase]() {
+    return (this[context].flags &amp; URL_FLAGS_CANNOT_BE_BASE) !== 0;
+  }
+
+  // https://url.spec.whatwg.org/#cannot-have-a-username-password-port
+  get [cannotHaveUsernamePasswordPort]() {
+    const { host, scheme } = this[context];
+    return ((host == null || host === '') ||
+            this[cannotBeBase] ||
+            scheme === 'file:');
+  }
+
+  [util.inspect.custom](depth, opts) {
+    if (this == null ||
+        Object.getPrototypeOf(this[context]) !== URLContext.prototype) {
+      throw new ERR_INVALID_THIS('URL');
+    }
+
+    if (typeof depth === 'number' &amp;&amp; depth &lt; 0)
+      return opts.stylize('[Object]', 'special');
+
+    var ctor = getConstructorOf(this);
+
+    var obj = Object.create({
+      constructor: ctor === null ? URL : ctor
+    });
+
+    obj.href = this.href;
+    obj.origin = this.origin;
+    obj.protocol = this.protocol;
+    obj.username = this.username;
+    obj.password = this.password;
+    obj.host = this.host;
+    obj.hostname = this.hostname;
+    obj.port = this.port;
+    obj.pathname = this.pathname;
+    obj.search = this.search;
+    obj.searchParams = this.searchParams;
+    obj.hash = this.hash;
+
+    if (opts.showHidden) {
+      obj.cannotBeBase = this[cannotBeBase];
+      obj.special = this[special];
+      obj[context] = this[context];
+    }
+
+    return util.inspect(obj, opts);
+  }
+}/"/>
+<meta property="fb:app_id" content="137119773101625"/>
+<meta property="og:site_name" content="〇〇会社デジタル"/>
+<meta property="og:locale" content="ja_JP"/>
+<meta property="og:title"/>
+<meta property="og:url" content="https://www.asahi.comclass URL {
+  constructor(input, base) {
+    // toUSVString is not needed.
+    input = `${input}`;
+    let base_context;
+    if (base !== undefined) {
+      base_context = new URL(base)[context];
+    }
+    this[context] = new URLContext();
+    parse(input, -1, base_context, undefined, onParseComplete.bind(this),
+          onParseError);
+  }
+
+  get [special]() {
+    return (this[context].flags &amp; URL_FLAGS_SPECIAL) !== 0;
+  }
+
+  get [cannotBeBase]() {
+    return (this[context].flags &amp; URL_FLAGS_CANNOT_BE_BASE) !== 0;
+  }
+
+  // https://url.spec.whatwg.org/#cannot-have-a-username-password-port
+  get [cannotHaveUsernamePasswordPort]() {
+    const { host, scheme } = this[context];
+    return ((host == null || host === '') ||
+            this[cannotBeBase] ||
+            scheme === 'file:');
+  }
+
+  [util.inspect.custom](depth, opts) {
+    if (this == null ||
+        Object.getPrototypeOf(this[context]) !== URLContext.prototype) {
+      throw new ERR_INVALID_THIS('URL');
+    }
+
+    if (typeof depth === 'number' &amp;&amp; depth &lt; 0)
+      return opts.stylize('[Object]', 'special');
+
+    var ctor = getConstructorOf(this);
+
+    var obj = Object.create({
+      constructor: ctor === null ? URL : ctor
+    });
+
+    obj.href = this.href;
+    obj.origin = this.origin;
+    obj.protocol = this.protocol;
+    obj.username = this.username;
+    obj.password = this.password;
+    obj.host = this.host;
+    obj.hostname = this.hostname;
+    obj.port = this.port;
+    obj.pathname = this.pathname;
+    obj.search = this.search;
+    obj.searchParams = this.searchParams;
+    obj.hash = this.hash;
+
+    if (opts.showHidden) {
+      obj.cannotBeBase = this[cannotBeBase];
+      obj.special = this[special];
+      obj[context] = this[context];
+    }
+
+    return util.inspect(obj, opts);
+  }
+}/"/>
+<meta property="og:image" content="https://www.asahi.comundefined"/>
+<meta property="og:type" content="article"/>
+<meta property="og:description"/>
+<meta property="article:publisher" content="https://www.facebook.com/asahicom"/>
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:site" content="@asahi"/>
+<meta property="twitter:title"/>
+<meta property="twitter:description"/>
+<meta name="twitter:image" content="https://www.asahi.comundefined"/>
+<meta name="twitter:url" content="https://www.asahi.comclass URL {
+  constructor(input, base) {
+    // toUSVString is not needed.
+    input = `${input}`;
+    let base_context;
+    if (base !== undefined) {
+      base_context = new URL(base)[context];
+    }
+    this[context] = new URLContext();
+    parse(input, -1, base_context, undefined, onParseComplete.bind(this),
+          onParseError);
+  }
+
+  get [special]() {
+    return (this[context].flags &amp; URL_FLAGS_SPECIAL) !== 0;
+  }
+
+  get [cannotBeBase]() {
+    return (this[context].flags &amp; URL_FLAGS_CANNOT_BE_BASE) !== 0;
+  }
+
+  // https://url.spec.whatwg.org/#cannot-have-a-username-password-port
+  get [cannotHaveUsernamePasswordPort]() {
+    const { host, scheme } = this[context];
+    return ((host == null || host === '') ||
+            this[cannotBeBase] ||
+            scheme === 'file:');
+  }
+
+  [util.inspect.custom](depth, opts) {
+    if (this == null ||
+        Object.getPrototypeOf(this[context]) !== URLContext.prototype) {
+      throw new ERR_INVALID_THIS('URL');
+    }
+
+    if (typeof depth === 'number' &amp;&amp; depth &lt; 0)
+      return opts.stylize('[Object]', 'special');
+
+    var ctor = getConstructorOf(this);
+
+    var obj = Object.create({
+      constructor: ctor === null ? URL : ctor
+    });
+
+    obj.href = this.href;
+    obj.origin = this.origin;
+    obj.protocol = this.protocol;
+    obj.username = this.username;
+    obj.password = this.password;
+    obj.host = this.host;
+    obj.hostname = this.hostname;
+    obj.port = this.port;
+    obj.pathname = this.pathname;
+    obj.search = this.search;
+    obj.searchParams = this.searchParams;
+    obj.hash = this.hash;
+
+    if (opts.showHidden) {
+      obj.cannotBeBase = this[cannotBeBase];
+      obj.special = this[special];
+      obj[context] = this[context];
+    }
+
+    return util.inspect(obj, opts);
+  }
+}/?ref=twnews"/>
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+<link rel="apple-touch-icon" href="/logo_icon.png"/>
+<meta name="msapplication-TileImage" content="/logo_icon.png"/>
+<meta name="msapplication-TileColor" content="#B90000"/>
+<meta name="RELEASE_DATE" content="2021-XX-XX"/>
