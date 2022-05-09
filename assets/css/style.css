@@ -31,7 +31,7 @@
 .header {
   height: 100px;
   width: 100%;
-  background: #FFF;
+  background: #c2f1ff;
   position: absolute;
   z-index: 50;
 }
@@ -283,6 +283,7 @@ html {
 }
 
 body {
+  background-color: #c2f1ff;
   height: 100%;
   -webkit-overflow-scrolling: touch;
   overflow-x: hidden;
