@@ -38,6 +38,10 @@
 @media screen and (max-width: 749px) {
   .header {
     height: 45px;
+    position: relative;
+  }
+  .header_content{
+    padding: 0 7px;
   }
 }
 .header_content {
@@ -86,6 +90,20 @@
   color: #FFF;
 }
 
+@media screen and (max-width: 749px){
+  .mv {
+    margin-top: 70px;
+  }
+  .mv_h1 {
+    position: relative;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 1.3;
+    color: #FFF;
+    padding-top: 40px;
+  }
+}
+
 .rinen {
   max-width: 1200px;
   margin: 100px auto 0;
@@ -100,12 +118,25 @@
   text-align: center;
 }
 
+@media screen and (max-width: 749px){
+  .rinen{
+    margin-top:100px;
+  }
+  .rinen h2 {
+    width: 100%;
+  }
+  .rinen_message {
+    font-size: 2rem;
+  }
+}
+
 .business {
   margin: 100px auto 0;
 }
 .business_contents {
   padding: 50px 250px;
 }
+
 .business_contents p {
   font-size: 2rem;
   text-align: center;
@@ -162,6 +193,20 @@
   max-width: 100%;
 }
 
+
+
+@media screen and (max-width: 749px){
+  .business_contents {
+    padding: 12px;
+  }
+  .business_image{
+    width: 100%;
+  }
+  .business_contents p{
+    font-size: 1.3rem;
+  }
+}
+
 .news {
   margin: 100px 0 0 0;
 }
@@ -202,6 +247,10 @@
 @media screen and (max-width: 749px) {
   .info .overview {
     width: 100%;
+    padding: 15px;
+  }
+  .info .overview .access{
+    font-size: 1.3rem !important;
   }
 }
 .info .overview h2 {
@@ -235,6 +284,11 @@
   margin: 100px 0 50px;
   font-size: 2rem;
   font-weight: 700;
+}
+@media screen and (max-width: 749px){
+  .info{
+    margin: 0;
+  }
 }
 
 .footer {
@@ -375,6 +429,9 @@ main {
   .sp-center {
     margin: auto;
   }
+  .c-head {
+    font-size: 2.5rem;
+  }
 }
 
 .m-center {
@@ -419,6 +476,9 @@ img.block {
     padding: 0 15px;
   }
 }
+
+
+
 
 .bg_white {
   background: #FFF;
@@ -1252,3 +1312,23 @@ img.block {
   border-top: 1px solid #333333;
   height: 450px;
 }
+
+
+
+
+@media screen and (max-width: 749px){
+  .sns_contents{
+    margin-top: 100px;
+  }
+  .sns_contents .sns_mv p{
+    font-size: 3.5rem;
+    margin-top: -40px;
+  }
+}
+
+@media screen and (max-width: 749px){
+  .btn{
+    width: 70%;
+  }
+}
+
